@@ -1,4 +1,4 @@
-# react-library
+# sp-blog
 
 Spec:
 1. Using lerna to management package versions update and release.
