@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Spec: 1. Using lerna to management package versions update and release. 2. Using rollup to build packages. 3. Using Storybook for UI testing and documentation. 4. Using Typescript as primary language. 5. Using airbnb config for eslint style.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "lerna run dev"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "devDependencies": {
     "lerna": "^5.1.6",
     "nx": "^14.3.6"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
