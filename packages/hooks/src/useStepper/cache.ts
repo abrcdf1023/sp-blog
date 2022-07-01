@@ -1,4 +1,4 @@
-import Cache from '@eGroupTeam/utils/Cache';
+import Cache from 'utils/Cache';
 
 const cache = new Cache();
 

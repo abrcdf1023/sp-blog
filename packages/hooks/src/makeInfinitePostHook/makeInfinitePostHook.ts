@@ -5,8 +5,8 @@ import {
   PathParams as DefaultPathParamsType,
   ReturnedInfiniteValues,
 } from "definition/typings";
-import objectCheckNull from "@eGroupTeam/utils/objectCheckNull";
-import replacer from "@eGroupTeam/utils/replacer";
+import objectCheckNull from "utils/objectCheckNull";
+import replacer from "utils/replacer";
 
 export type ShouldStop<Data> = (
   data: AxiosResponse<Data, any> | null

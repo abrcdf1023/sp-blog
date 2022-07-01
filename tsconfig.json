@@ -10,6 +10,7 @@
     "paths": {
       "definition/*": ["packages/definition/src/*"],
       "hooks/*": ["packages/hooks/src/*"],
+      "utils/*": ["packages/utils/src/*"],
       "redux-modules/*": ["packages/redux-modules/src/*"]
     },
     "jsx": "preserve",

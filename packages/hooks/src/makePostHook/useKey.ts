@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import queryString, { StringifiableRecord } from "query-string";
-import replacer from "@eGroupTeam/utils/replacer";
-import objectCheckNull from "@eGroupTeam/utils/objectCheckNull";
+import replacer from "utils/replacer";
+import objectCheckNull from "utils/objectCheckNull";
 
 export type UseKeyArgs<PathParams, Body> = {
   defaultPathParams?: PathParams;
