@@ -8,10 +8,10 @@
     "rootDirs": ["packages"],
     "baseUrl": "./",
     "paths": {
-      "definition/*": ["packages/definition/src/*"],
-      "hooks/*": ["packages/hooks/src/*"],
-      "utils/*": ["packages/utils/src/*"],
-      "redux-modules/*": ["packages/redux-modules/src/*"]
+      "@abrcdf1023/definition/*": ["packages/definition/src/*"],
+      "@abrcdf1023/hooks/*": ["packages/hooks/src/*"],
+      "@abrcdf1023/utils/*": ["packages/utils/src/*"],
+      "@abrcdf1023/redux-modules/*": ["packages/redux-modules/src/*"]
     },
     "jsx": "preserve",
     "allowJs": true,

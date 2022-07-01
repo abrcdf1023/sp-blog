@@ -4,9 +4,9 @@ import useSWRInfinite, { SWRInfiniteConfiguration } from "swr/infinite";
 import {
   PathParams as DefaultPathParamsType,
   ReturnedInfiniteValues,
-} from "definition/typings";
-import objectCheckNull from "utils/objectCheckNull";
-import replacer from "utils/replacer";
+} from "@abrcdf1023/definition/typings";
+import objectCheckNull from "@abrcdf1023/utils/objectCheckNull";
+import replacer from "@abrcdf1023/utils/replacer";
 
 export type ShouldStop<Data> = (
   data: AxiosResponse<Data, any> | null

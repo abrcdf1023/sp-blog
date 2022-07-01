@@ -6,7 +6,7 @@ import useSWRImmutable from "swr/immutable";
 import {
   PathParams as DefaultPathParamsType,
   ReturnedValues,
-} from "definition/typings";
+} from "@abrcdf1023/definition/typings";
 import useKey from "./useKey";
 
 export default function makeGetHook<
