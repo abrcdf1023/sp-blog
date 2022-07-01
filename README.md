@@ -1,7 +1,7 @@
 # react-library
 
 Spec:
-1. Using lerna to management package version update and release.
+1. Using lerna to management package versions update and release.
 2. Using rollup to build packages.
 3. Using Storybook for UI testing and documentation.
 4. Using Typescript as primary language.
