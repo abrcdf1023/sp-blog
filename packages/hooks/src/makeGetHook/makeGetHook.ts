@@ -6,7 +6,7 @@ import useSWRImmutable from "swr/immutable";
 import {
   PathParams as DefaultPathParamsType,
   ReturnedValues,
-} from "@eGroupTeam/typings/apis";
+} from "definition/typings";
 import useKey from "./useKey";
 
 export default function makeGetHook<

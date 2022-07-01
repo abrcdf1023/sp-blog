@@ -4,7 +4,7 @@ import useSWRInfinite, { SWRInfiniteConfiguration } from "swr/infinite";
 import {
   PathParams as DefaultPathParamsType,
   ReturnedInfiniteValues,
-} from "@eGroupTeam/typings/apis";
+} from "definition/typings";
 import objectCheckNull from "@eGroupTeam/utils/objectCheckNull";
 import replacer from "@eGroupTeam/utils/replacer";
 

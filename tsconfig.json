@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "rootDirs": ["packages"],
+    "baseUrl": "./",
+    "paths": {
+      "definition/*": ["packages/definition/src/*"],
+      "hooks/*": ["packages/hooks/src/*"],
+      "redux-modules/*": ["packages/redux-modules/src/*"]
+    },
+    "jsx": "preserve",
+    "allowJs": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "incremental": true,
+    "noUnusedLocals": true,
+    "declaration": true,
+    "noUncheckedIndexedAccess": true
+  },
+  "include": ["packages/**/*"],
+  "exclude": ["node_modules"]
+}

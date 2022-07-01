@@ -5,7 +5,7 @@ import useSWRInfinite, { SWRInfiniteConfiguration } from "swr/infinite";
 import {
   PathParams as DefaultPathParamsType,
   ReturnedInfiniteValues,
-} from "@eGroupTeam/typings/apis";
+} from "definition/typings";
 import useKey from "../makeGetHook/useKey";
 
 export type ShouldStop<Data> = (
