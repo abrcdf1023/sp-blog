@@ -2,9 +2,6 @@
   "name": "@abrcdf1023/definition",
   "version": "1.0.0",
   "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "",
   "license": "MIT",
   "dependencies": {
