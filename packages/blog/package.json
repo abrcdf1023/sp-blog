@@ -11,6 +11,7 @@
   "dependencies": {
     "@abrcdf1023/utils": "1.0.0",
     "@abrcdf1023/hooks": "1.0.0",
+    "@abrcdf1023/mui-components": "1.0.0",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
